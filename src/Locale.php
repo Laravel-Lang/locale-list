@@ -97,7 +97,9 @@ enum Locale: string
     case Vietnamese         = 'vi';
     case Welsh              = 'cy';
 
-    /** Get an associative array of [case value => case value]. */
+    /**
+     * Get an associative array of [case value => case value].
+     */
     public static function onlyValues(): array
     {
         $cases = self::cases();

@@ -8,6 +8,7 @@ use ArchTech\Enums\From;
 use ArchTech\Enums\Names;
 use ArchTech\Enums\Options;
 use ArchTech\Enums\Values;
+use BackedEnum;
 
 enum Locale: string
 {
@@ -95,4 +96,14 @@ enum Locale: string
     case UzbekLatin         = 'uz_Latn';
     case Vietnamese         = 'vi';
     case Welsh              = 'cy';
+
+    /** Get an associative array of [case value => case value]. */
+    public static function onlyValues(): array
+    {
+        $cases = self::cases();
+
+        return isset($cases[0]) && $cases[0] instanceof BackedEnum
+            ? array_column($cases, 'value', 'value')
+            : array_column($cases, 'value');
+    }
 }

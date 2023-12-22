@@ -73,7 +73,6 @@ enum Locale: string
     case Irish              = 'ga';
     case Italian            = 'it';
     case Japanese           = 'ja';
-    case Javanese           = 'jw';
     case Kannada            = 'kn';
     case Kazakh             = 'kk';
     case Kinyarwanda        = 'rw';

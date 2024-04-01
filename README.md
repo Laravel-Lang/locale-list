@@ -9,7 +9,7 @@
 
 ## Documentation
 
-See the [documentation](https://laravel-lang.com) for detailed installation.
+See the [documentation](https://laravel-lang.com/packages-locale-list.html) for detailed installation.
 
 ## Contributing
 

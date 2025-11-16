@@ -56,6 +56,7 @@ enum Locale: string
     case GermanSwitzerland  = 'de_CH';
     case Greek              = 'el';
     case Gujarati           = 'gu';
+    case HaitianCreole      = 'ht';
     case Hausa              = 'ha';
     case Hawaiian           = 'haw';
     case Hebrew             = 'he';

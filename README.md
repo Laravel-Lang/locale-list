@@ -1,8 +1,8 @@
 # Locale List
 
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://banners.beyondco.de/Locale%20List.png?theme=dark&pattern=topography&style=style_2&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg&packageManager=composer+require&packageName=laravel-lang%2Flocale-list&description=by+Laravel+Lang&md=1&showWatermark=1">
-    <img src="https://banners.beyondco.de/Locale%20List.png?theme=light&pattern=topography&style=style_2&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg&packageManager=composer+require&packageName=laravel-lang%2Flocale-list&description=by+Laravel+Lang&md=1&showWatermark=1" alt="Locale List">
+    <source media="(prefers-color-scheme: dark)" srcset="https://banners.beyondco.de/Locale%20List.png?pattern=topography&style=style_2&fontSize=100px&md=1&showWatermark=1&icon=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg&theme=dark&packageManager=composer+require&packageName=laravel-lang%2Flocale-list&description=by+Laravel+Lang&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg">
+    <img src="https://banners.beyondco.de/Locale%20List.png?pattern=topography&style=style_2&fontSize=100px&md=1&showWatermark=1&icon=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg&theme=light&packageManager=composer+require&packageName=laravel-lang%2Flocale-list&description=by+Laravel+Lang&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg" alt="Locale List">
 </picture>
 
 [![Stable Version][badge_stable]][link_packagist]

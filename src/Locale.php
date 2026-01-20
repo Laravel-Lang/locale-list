@@ -53,6 +53,7 @@ enum Locale: string
     case Galician           = 'gl';
     case Georgian           = 'ka';
     case German             = 'de';
+    case GermanAustria      = 'de_AT';
     case GermanSwitzerland  = 'de_CH';
     case Greek              = 'el';
     case Gujarati           = 'gu';

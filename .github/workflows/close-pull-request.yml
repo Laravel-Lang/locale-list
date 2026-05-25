@@ -10,4 +10,11 @@ jobs:
         steps:
             -   uses: superbrothers/close-pull-request@v3
                 with:
-                    comment: "Thank you for your pull request. However, you have submitted this PR on the Laravel-Lang organization which is a read-only sub split of `laravel-lang/mona`. Please submit your PR on the https://github.com/Laravel-Lang/mona repository.<br><br>Thanks!"
+                    comment: |
+                        Thank you for your pull request.
+
+                        However, you have submitted this PR on the Laravel-Lang organization which is a read-only sub split of `laravel-lang/mona`.
+
+                        Please submit your PR on the https://github.com/Laravel-Lang/mona repository.
+                        
+                        Thanks!

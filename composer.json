@@ -37,7 +37,7 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "LaravelLang\\LocaleList\\": ""
+            "LaravelLang\\LocaleList\\": "src/"
         }
     },
     "config": {

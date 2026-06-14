@@ -1,6 +1,9 @@
 # Locale List
 
-![laravel-lang locale list](https://preview.dragon-code.pro/laravel-lang/locale-list.svg?brand=laravel&mode=dark)
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://banners.beyondco.de/Locale%20List.png?pattern=topography&style=style_2&fontSize=100px&md=1&showWatermark=1&icon=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg&theme=dark&packageManager=composer+require&packageName=laravel-lang%2Flocale-list&description=by+Laravel+Lang&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg">
+    <img src="https://banners.beyondco.de/Locale%20List.png?pattern=topography&style=style_2&fontSize=100px&md=1&showWatermark=1&icon=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg&theme=light&packageManager=composer+require&packageName=laravel-lang%2Flocale-list&description=by+Laravel+Lang&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg" alt="Locale List">
+</picture>
 
 [![Stable Version][badge_stable]][link_packagist]
 [![Total Downloads][badge_downloads]][link_packagist]

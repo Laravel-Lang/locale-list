@@ -147,7 +147,11 @@ enum Locale: string
     case Yoruba             = 'yo';
     case Zulu               = 'zu';
 
-    /** Get an associative array of [case value => case value]. */
+    /**
+     * Get an associative array of [case value => case value].
+     *
+     * @deprecated
+     */
     public static function onlyValues(): array
     {
         $cases = self::cases();

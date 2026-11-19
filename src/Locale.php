@@ -5,12 +5,10 @@ declare(strict_types=1);
 namespace LaravelLang\LocaleList;
 
 use LaravelLang\LocaleList\Concerns\HasCollection;
-use LaravelLang\LocaleList\Concerns\HasFrom;
 
 enum Locale: string
 {
     use HasCollection;
-    use HasFrom;
 
     case Afrikaans          = 'af';
     case Albanian           = 'sq';

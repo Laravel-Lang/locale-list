@@ -4,11 +4,9 @@ declare(strict_types=1);
 
 namespace LaravelLang\LocaleList;
 
-use ArchTech\Enums\From;
-use ArchTech\Enums\Names;
-use ArchTech\Enums\Options;
-use ArchTech\Enums\Values;
-use BackedEnum;
+use LaravelLang\LocaleList\Concerns\HasCollection;
+use LaravelLang\LocaleList\Concerns\HasFrom;
+use LaravelLang\LocaleList\Concerns\HasValues;
 
 enum Locale: string
 {
@@ -16,6 +14,8 @@ enum Locale: string
     use Names;
     use Options;
     use Values;
+    use HasFrom;
+    use HasValues;
 
     case Afrikaans          = 'af';
     case Albanian           = 'sq';
@@ -146,18 +146,4 @@ enum Locale: string
     case Yiddish            = 'yi';
     case Yoruba             = 'yo';
     case Zulu               = 'zu';
-
-    /**
-     * Get an associative array of [case value => case value].
-     *
-     * @deprecated
-     */
-    public static function onlyValues(): array
-    {
-        $cases = self::cases();
-
-        return isset($cases[0]) && $cases[0] instanceof BackedEnum
-            ? array_column($cases, 'value', 'value')
-            : array_column($cases, 'value');
-    }
 }

@@ -6,16 +6,11 @@ namespace LaravelLang\LocaleList;
 
 use LaravelLang\LocaleList\Concerns\HasCollection;
 use LaravelLang\LocaleList\Concerns\HasFrom;
-use LaravelLang\LocaleList\Concerns\HasValues;
 
 enum Locale: string
 {
-    use From;
-    use Names;
-    use Options;
-    use Values;
+    use HasCollection;
     use HasFrom;
-    use HasValues;
 
     case Afrikaans          = 'af';
     case Albanian           = 'sq';

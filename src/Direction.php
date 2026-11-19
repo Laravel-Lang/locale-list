@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace LaravelLang\LocaleList;
 
+use LaravelLang\LocaleList\Concerns\HasCollection;
 use LaravelLang\LocaleList\Concerns\HasFrom;
-use LaravelLang\LocaleList\Concerns\HasValues;
 
 enum Direction: string
 {
+    use HasCollection;
     use HasFrom;
-    use HasValues;
 
     case LeftToRight = 'ltr';
     case RightToLeft = 'rtl';

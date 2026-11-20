@@ -4,10 +4,9 @@ declare(strict_types=1);
 
 namespace LaravelLang\LocaleList\Concerns;
 
-use BackedEnum;
 use Illuminate\Support\Collection;
 
-/** @mixin BackedEnum */
+/** @mixin \BackedEnum */
 trait HasCollection
 {
     public static function values(): array

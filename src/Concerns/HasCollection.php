@@ -10,17 +10,17 @@ use Illuminate\Support\Collection;
 /** @mixin BackedEnum */
 trait HasCollection
 {
+    /** @return list<string> */
     public static function values(): array
     {
         return array_column(static::cases(), 'value');
     }
 
+    /** @return ($values is true ? Collection<int, value-of<static>> : Collection<int, static>) */
     public static function collection(bool $values = true): Collection
     {
-        $items = $values
-            ? static::values()
-            : static::cases();
-
-        return new Collection($items);
+        return $values
+            ? new Collection(static::values())
+            : new Collection(static::cases());
     }
 }

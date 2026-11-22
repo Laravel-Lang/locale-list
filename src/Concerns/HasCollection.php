@@ -16,7 +16,7 @@ trait HasCollection
         return array_column(static::cases(), 'value');
     }
 
-    /** @return ($values is true ? Collection<int, value-of<static>> : Collection<int, static>) */
+    /** @return ($values is true ? Collection<int, string> : Collection<int, static>) */
     public static function collection(bool $values = true): Collection
     {
         return $values

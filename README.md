@@ -12,7 +12,7 @@
 
 ## Documentation
 
-See the [documentation](https://laravel-lang.com/start) for detailed information.
+[Browse the canonical locale codes.](https://laravel-lang.com/available-locales)
 
 ## Contributing
 
